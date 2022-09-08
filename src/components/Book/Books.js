@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import Book from './Book'
 import './Book.css'
-const URL = "http://localhost:5000/books"
+const URL = "https://book-store-mern-crud.herokuapp.com/books"
 
 
 const fetchHandler = async() => {
