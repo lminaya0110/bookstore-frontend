@@ -1,11 +1,22 @@
-# Fullstack MERN CRUD Application - Frontend
+# Fullstack CRUD Application - Frontend
  
 ### About The Project
 &nbsp;  
-The purpose of this project is to create a fullstack application using the MERN stack, MVC, React Router paths, API, and a CSS framework.
-&nbsp;  
+The goal of this project is to showcase proper use of the MVC (Model View Controller) architectural pattern, as well as the four basic CRUD operations: create, read, update, delete. 
 
-&nbsp;  
+In this implementation I have created a bookstore where the user can add any books they would like to buy or sell into a database. In order for the user to add a new book to the database they will need to fill out the following:
+
+- Book title
+- Author name
+- Description of the book
+- Price
+- Cover image
+
+Once listed the books can be updated and deleted. 
+
+Here is a link to the backend code:
+[Backend Code](https://github.com/lminaya0110/bookstore-backend)
+
 ### Built With
 * ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
@@ -17,9 +28,8 @@ The purpose of this project is to create a fullstack application using the MERN 
 
 * ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
-&nbsp;  
-&nbsp;  
-[Backend Code](https://github.com/lminaya0110/bookstore-backend)
+
+&nbsp;   
 &nbsp;  
 &nbsp;  
 &nbsp;  
@@ -63,31 +73,8 @@ npm install @mui/material @emotion/react @emotion/styled
 
 &nbsp;  
 
-# Usage  
 
-This project is a great way for beginners to create a full-stack application using their new knowledge in the MERN tech stack. 
-&nbsp;  
-
-# Author/ Contact
-
-Laura Minaya: 
-
-[LinkedIn](https://www.linkedin.com/in/laura-minaya-b1a853223/)
-
-[Github](https://github.com/lminaya0110)  
- 
-[Deployed Backend](https://book-store-mern-crud.herokuapp.com/books)
-&nbsp;  
-&nbsp;  
-
-&nbsp;  
-
-# Acknowledgments 
-
-CSS Framework provided by [Material UI](https://mui.com/)
-
-
-# Getting Started with Create React App
+## Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -127,7 +114,7 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
+&nbsp;  
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
@@ -157,3 +144,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+&nbsp;  
+# Usage  
+
+This project is a great way for beginners to create a full-stack application using their new knowledge in the MERN tech stack. 
+&nbsp;  
+&nbsp;  
+# Author/ Contact
+
+Laura Minaya: 
+
+[LinkedIn](https://www.linkedin.com/in/laura-minaya-b1a853223/)
+
+[Github](https://github.com/lminaya0110)  
+ 
+[Deployed Backend](https://book-store-mern-crud.herokuapp.com/books)
+&nbsp;  
+&nbsp;  
+
+&nbsp;  
+
+# Acknowledgments 
+
+CSS Framework provided by [Material UI](https://mui.com/)
